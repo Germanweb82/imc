@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peso en algun lugar</title>
+</head>
+<body>
+	<h1>CALCULO DE TU IMC</h1>
+	<p>Indice de masa corporal</p>
+	<script type="text/javascript">
+	var usuario = prompt("Cual es tu nombre?");
+	var peso = parseInt(prompt ("Cual es tu peso en Kg?"));
+	var altura = parseFloat(prompt ("Cual es tu altura?"));
+	var imc;
+	imc = peso / (altura * altura) ;
+	imc = parseInt(imc);
+	document.write("Hola " + usuario + " tu índice de masa corporal es " + imc + "%");
+	</script>
+</body>
+</html>
